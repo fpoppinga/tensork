@@ -9,6 +9,7 @@ plugins {
 
 dependencies {
     implementation(kotlin("stdlib-jdk8"))
+    implementation(kotlin("script-runtime"))
     implementation(group = "com.kyonifer", name = "koma-core-ejml", version = "0.12")
 
     testImplementation(kotlin("test"))

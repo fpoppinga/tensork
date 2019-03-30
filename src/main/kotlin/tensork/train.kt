@@ -21,6 +21,8 @@ fun train(
             optimizer.step(nn)
         }
 
-        println("Epoch $epoch - loss = $epochLoss")
+        if (epoch % 100 == 0L) {
+            println("Epoch $epoch - loss = $epochLoss")
+        }
     }
 }
